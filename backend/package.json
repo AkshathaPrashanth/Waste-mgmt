@@ -1,0 +1,23 @@
+{
+  "name": "smart-waste-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Smart Waste Management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "firebase-admin": "^13.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1"
+  }
+}

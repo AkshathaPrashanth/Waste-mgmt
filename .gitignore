@@ -1,0 +1,9 @@
+node_modules/
+**/node_modules/
+frontend/dist/
+backend/uploads/
+backend/.env
+backend/serviceAccountKey.json
+__pycache__/
+*.py[cod]
+.venv/
